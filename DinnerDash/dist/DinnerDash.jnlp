@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DinnerDash.jnlp">
+  <information>
+    <title>DinnerDash</title>
+    <vendor>user</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DinnerDash.jar" size="2842" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="dinnerdash.DinnerDash"  name="DinnerDash" />
+  <update check="always"/>
+</jnlp>
